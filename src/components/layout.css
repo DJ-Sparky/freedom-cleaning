@@ -153,7 +153,8 @@ hr {
   margin-bottom: calc(1.45rem - 1px);
   background: hsla(0, 0%, 0%, 0.2);
   border: none;
-  height: 1px;
+  height: 2px;
+  color: rgb(0, 146, 146);
 }
 button,
 input,
@@ -594,4 +595,10 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+/* custom css */
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
 }

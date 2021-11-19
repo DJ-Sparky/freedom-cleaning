@@ -1,0 +1,25 @@
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2858, 78, 213, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler {
+  border: 0 solid rgb(55, 204, 220);
+}
+.navbar-light .navbar-toggler {
+  background: rgb(55, 204, 220);
+  border-radius: 1px;
+  position: relative;
+  text-align: center;
+}
+
+.navbar-light .navbar-toggler::before {
+  border-radius: 2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  content: "";
+  background-image: linear-gradient(to bottom, #ff0000 0%, #3a4ed5 100%);
+  padding: 2px;
+  top: -2px;
+  left: -2px;
+  position: absolute;
+  z-index: -1;
+}

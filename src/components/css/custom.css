@@ -1,0 +1,227 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.masthead {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.masthead h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.full-width-div {
+  position: relative;
+  width: 100%;
+  left: 0;
+}
+
+.navbar-custom {
+  height: 100px;
+}
+.navbar .navbar-brand:hover {
+  color: whitesmoke;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: whitesmoke;
+}
+
+.navbar-light .navbar-brand {
+  color: whitesmoke;
+  text-align: center;
+  padding-left: 2%;
+}
+
+.bg-primary {
+  background-color: rgb(55, 204, 220) !important;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: rgb(55, 204, 220) !important;
+}
+
+.container {
+  position: relative;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.backroundHeaderImage {
+  width: 100%;
+  height: 100%;
+}
+
+.cardBackground {
+  background-image: url("../../images/background.jpg");
+}
+
+.card-body {
+  flex: 1 1 auto;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.clearfix {
+  *display: inline-block;
+  height: 1%;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #ffefef;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-color: rgb(0, 146, 146);
+}
+.footer {
+  width: 100%;
+  margin: 0 -999px;
+  padding: 30px 999px;
+  display: block;
+  overflow: hidden;
+  background: #2f353e;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 5px;
+}
+.footer-copy {
+  float: left;
+}
+.menu-footer-wrapper {
+  float: left;
+}
+.menu-footer {
+  float: left;
+  margin: 0;
+}
+.menu-footer li {
+  float: left;
+  margin: 0 20px 5px 0;
+  display: inline;
+}
+.menu-footer-wrapper {
+  float: left;
+}
+.copyright {
+  float: left;
+  margin: 0;
+  position: relative;
+  font-size: 12px;
+  color: #a7b5c1;
+}
+.social-icons {
+  float: right;
+  margin-top: 5px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.row-bgimage {
+  position: relative;
+}
+
+.muddyBootsImage {
+  /* width: 100%; */
+  height: 100%;
+  z-index: 0;
+}
+
+.bubbles-content {
+  z-index: 10;
+}
+
+.center-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.facebook-icon {
+  /* vertical-align: middle; */
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.card-padding {
+  /* vertical-align: middle; */
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.row-center {
+  display: flex;
+  align-items: center;
+}
+
+.justify-content {
+  display: flex;
+  justify-content: center;
+}
+
+.border-primary {
+  border-color: rgb(0, 146, 146) !important;
+}
+
+.vr {
+  border-left: 1px solid rgb(55, 204, 220);
+  opacity: 1;
+}
+
+.col-md-5point5 {
+  width: 46%;
+}
+.col-md-1custom {
+  width: 81.25%;
+}
+.twitterCard {
+  background-image: url("../../images/seo.png");
+}
